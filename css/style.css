@@ -204,3 +204,7 @@ footer {
 .pointer {
     cursor: pointer;
 }
+
+.antenna {
+        background-color: tomato
+}
