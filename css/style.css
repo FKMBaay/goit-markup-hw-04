@@ -206,5 +206,9 @@ footer {
 }
 
 .antenna {
-        background-color: tomato
+        background-color: var(--cloud)
+        border-radius: 4px
+        width: 264px;
+        height: 112px;
+        flex-shrink: 0;
 }
