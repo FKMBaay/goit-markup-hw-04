@@ -251,10 +251,29 @@ footer {
 }
 
 .damas {
-
     background-color: var(--cloud);
     
 }
 .costumer {
+    display: flex;
     background-color: var(--white);
+    
+
+}
+.costumerico {
+    display: flex;
+    color: orange;
+    padding: 16px 32px;
+    margin-left: 60x;
+    gap: 24px;
+    justify-content: center;
+    
+}
+.costa {
+    background-size: cover;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+    color: #fff;
+
 }
