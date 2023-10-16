@@ -16,8 +16,6 @@ body {
     list-style: none;
     padding-left: 0;
     display: flex;
-    padding-top: 122px;
-    padding-bottom: 122px;
     gap: 40px;
 
 } 
@@ -210,5 +208,5 @@ footer {
         border-radius: 4px
         width: 264px;
         height: 112px;
-        flex-shrink: 0;
+       
 }
