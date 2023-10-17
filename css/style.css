@@ -8,6 +8,7 @@
     --cloud: #f4f4fd;
 }
 
+header
 
 .logo {
     color: #2E2F42;
@@ -198,11 +199,7 @@ h3 {
     text-align: center;
     
     padding-top: 120px;}
-.damas {
-    background-color: var(--cloud)
-    width: 1440px;
-    flex-shrink: 0;
-}   
+
 footer {
     background-color: #2E2F42;
     padding: 101.5px;
@@ -239,6 +236,22 @@ footer {
 
 .pointer {
     cursor: pointer;
+}
+
+.costumers {
+    text-align: center;
+}
+.cstmrs {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    padding-top: 122px;
+    padding-bottom: 122px;
+    gap: 40px;
+    align-items: center;
+    text-align: center; 
+    justify-content: center;
+    background-color: var(--white);
 }
 
 .antenna {
@@ -279,9 +292,9 @@ footer {
 }
 
 .damas {
-    background-color: var(--cloud);
+    background-color: var(--cloud)
     
-}
+}   
 .damas2 {
     background-color: var(--white);
 }
@@ -318,4 +331,12 @@ footer {
 }
 .cosicons {
     justify-content: center;
+}
+
+Costumer Area 
+.iconstwo {
+    background-color: var(--iris);
+    padding: 19px;
+    border-radius: 50%;
+    fill: var(--white);
 }
