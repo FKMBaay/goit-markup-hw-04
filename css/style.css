@@ -6,6 +6,8 @@
     --slate: #434455;
     --cornflower: #e7c9fc;
     --cloud: #f4f4fd;
+    --lightslate: #8E8F99
+
 }
 
 header
@@ -41,7 +43,7 @@ header
 }
 
 body {
-    font-family: "roboto"; sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 .toraul {
@@ -119,9 +121,7 @@ head:hover {
     text-align: right
 }
 
-.cont {
-    padding-right: ;
-}
+
 
 /*GENERAL STYLING*/
 .list {
@@ -200,14 +200,6 @@ h3 {
     
     padding-top: 120px;}
 
-footer {
-    background-color: #2E2F42;
-    padding: 101.5px;
-    display: block;
-    display: flex;
-    text-decoration: none;
-
-}
 .logo2 span {
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway;
@@ -220,18 +212,11 @@ footer {
 }
 .logo2 {
     color: white;
-    font-family: Raleway;`
+    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
     text-transform: uppercase;
-}
-.footp {
-    color: white;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
 }
 
 .pointer {
@@ -240,18 +225,6 @@ footer {
 
 .costumers {
     text-align: center;
-}
-.cstmrs {
-    list-style: none;
-    padding-left: 0;
-    display: flex;
-    padding-top: 122px;
-    padding-bottom: 122px;
-    gap: 40px;
-    align-items: center;
-    text-align: center; 
-    justify-content: center;
-    background-color: var(--white);
 }
 
 .antenna {
@@ -320,23 +293,108 @@ footer {
     text-decoration: none;
 
 }
-.media {
-    color: cloud#2E2F42;
-    font-family: roboto, sans serif;
 
-    font-style: normal;
-    font-weight: 700;
-    text-align: center;
-    
-}
-.cosicons {
-    justify-content: center;
-}
+
+
+/* CUSTUMERS ARE  */
+
+
 
 Costumer Area 
+
 .iconstwo {
     background-color: var(--iris);
     padding: 19px;
     border-radius: 50%;
     fill: var(--white);
 }
+.cosicon1 {}
+.cosicon{
+    margin-color:var(--iris);
+    margin:  15 15;
+    padding: 20 20;
+}
+.cstmrs {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    padding-top: 122px;
+    padding-bottom: 122px;
+    gap: 40px;
+    align-items: center;
+    text-align: center; 
+    justify-content: center;
+    background-color: var(--white);
+    color: black;
+    margin: 15px;
+    margin-color:var(--iris)
+    
+
+}
+.cosicons {
+    justify-content: center;
+}
+.cstmrs a {
+    margin: 50 50;
+    color: #2E2F42;
+}
+
+
+
+
+
+
+/* FOOTER AREA  */
+
+
+footer {
+    background-color: #2E2F42;
+    padding: 101.5px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+
+}
+footer .toraulin {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+footer .iconstwo {
+    justify-content: left;
+    text-decoration: none;
+    margin-left: 200px;
+}
+.footp {
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.media {
+    color: cloud#2E2F42;
+    font-family: roboto, sans serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 300px;
+    text-align: left;
+    
+}
+.socmed {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 0;
+   
+
+}
+.groupicons {
+    justify-content: left;
+
+}
+h4 {
+    margin: 0 16 120 0;
+}   
