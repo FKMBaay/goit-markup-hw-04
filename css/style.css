@@ -8,6 +8,37 @@
     --cloud: #f4f4fd;
 }
 
+
+.logo {
+    color: #2E2F42;
+    font-family: Raleway, sans serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    padding-right: 76px;
+
+}
+.logo span {
+    font-family: raleway, sans serif;
+    color: #4D5AE5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 156px;
+
+}
+.lo {
+    font-family: raleway, sans serif;
+    color: #fffb02;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 156px;
+}
+
 body {
     font-family: "roboto"; sans-serif;
 }
@@ -30,26 +61,23 @@ body {
     text-align: center; 
     justify-content: center;
     background-color: cloud;
-
 }
+
+
+
 .toraulin p {
     text-align: center;
 }
+
+
 .markguerrero {
     height: 260px;
     width: 264px;
 }
 
 
-.logo span {
-    font-family: raleway, sans serif;
-    color: #4D5AE5;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    padding-left: 156px;
 
-}
+
 
     
 
@@ -57,31 +85,26 @@ body {
     display: flex;
 }
 
-.logo {
-    color: #2E2F42;
-    font-family: Raleway, sans serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px; 
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    padding-right: 76px;
 
-}
 
 head:hover {
     color: rgb(129, 5, 102);
   
 }
+
+
 .uno {
    display: flex;
    align-items: center;
   
 }
+
+
 .dos {
    align-items: center;
 }
+
+
 .mai {
     margin-left: 940px;
     gap: 40px;
@@ -90,6 +113,7 @@ head:hover {
 .tee {
     margin-left: 40px;
 }
+
 .tel {
     text-align: right
 }
@@ -181,7 +205,10 @@ h3 {
 }   
 footer {
     background-color: #2E2F42;
-   padding: 101.5px;
+    padding: 101.5px;
+    display: block;
+    display: flex;
+    text-decoration: none;
 
 }
 .logo2 span {
@@ -209,6 +236,7 @@ footer {
     font-style: normal;
     font-weight: 400;
 }
+
 .pointer {
     cursor: pointer;
 }
@@ -254,6 +282,9 @@ footer {
     background-color: var(--cloud);
     
 }
+.damas2 {
+    background-color: var(--white);
+}
 .costumer {
     display: flex;
     background-color: var(--white);
@@ -269,11 +300,22 @@ footer {
     justify-content: center;
     
 }
-.costa {
-    background-size: cover;
-    padding-top: 188px;
-    padding-bottom: 188px;
+.costumers {
     text-align: center;
     color: #fff;
+    justify-content: center;
+    text-decoration: none;
 
+}
+.media {
+    color: cloud#2E2F42;
+    font-family: roboto, sans serif;
+
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.cosicons {
+    justify-content: center;
 }
