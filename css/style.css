@@ -311,10 +311,15 @@ Costumer Area
     flex-shrink: 0;
     width: 168px;
     height: 88px;
-
 }
-
-
+.logo1costumer:hover,
+.logo1costumer:focus svg  {
+    border-color: var(--iris);
+}
+.logo1costumer:hover,
+.logo1costumer:focus svg  {
+    fill: var(--iris);
+}
 
 
 
