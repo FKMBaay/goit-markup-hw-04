@@ -268,31 +268,6 @@ h3 {
     background-color: var(--cloud)
     
 }   
-.damas2 {
-    background-color: var(--white);
-}
-.costumer {
-    display: flex;
-    background-color: var(--white);
-    
-
-}
-.costumerico {
-    display: flex;
-    color: orange;
-    padding: 16px 32px;
-    margin-left: 60x;
-    gap: 24px;
-    justify-content: center;
-    
-}
-.costumers {
-    text-align: center;
-    color: #fff;
-    justify-content: center;
-    text-decoration: none;
-
-}
 
 
 
@@ -302,43 +277,42 @@ h3 {
 
 Costumer Area 
 
-.iconstwo {
-    background-color: var(--iris);
-    padding: 19px;
-    border-radius: 50%;
-    fill: var(--white);
-}
-.cosicon1 {}
 .cosicon{
-    margin-color:var(--iris);
-    margin:  15 15;
-    padding: 20 20;
-}
-.cstmrs {
-    list-style: none;
-    padding-left: 0;
-    display: flex;
+    flex: content;
+    flex-wrap: wrap;
+   justify-content: center;
+    gap: 24px;
+    justify-content: center;
+    border-radius: 4px;
+   
+ }
+
+.cosicon1 {
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    align-items: flex-start;display: flex;
     padding-top: 122px;
     padding-bottom: 122px;
     gap: 40px;
-    align-items: center;
-    text-align: center; 
-    justify-content: center;
-    background-color: var(--white);
-    color: black;
-    margin: 15px;
-    margin-color:var(--iris)
-    
-
+    fill: var(--lightslate);
+   
 }
-.cosicons {
-    justify-content: center;
-}
-.cstmrs a {
-    margin: 50 50;
-    color: #2E2F42;
+.cosicon1 svg {
+    fill: var(--lightslate) ;
+    padding: 16px 32px;
 }
 
+.logo1costumer {
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    width: 104px;
+    height: 56px;
+    flex-shrink: 0;
+    width: 168px;
+    height: 88px;
+
+}
 
 
 
@@ -377,7 +351,7 @@ footer .iconstwo {
     font-family: roboto, sans serif;
     font-style: normal;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
     margin-left: 300px;
     text-align: left;
     
@@ -387,14 +361,11 @@ footer .iconstwo {
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
-    margin-top: 0;
+    text-align: left;
    
 
 }
 .groupicons {
-    justify-content: left;
+    justify-content: center;
 
 }
-h4 {
-    margin: 0 16 120 0;
-}   
